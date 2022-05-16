@@ -1,0 +1,78 @@
+body{
+    background-color: #040404;
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#pic{
+    align-self: center;
+    /* margin-top: 20px; */
+    /* margin-left: 602px; */
+    /* margin-bottom: 20px; */
+    width: 170px;
+    height: 170px;
+}
+
+.txt{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0 5px 0;
+}
+
+#home{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.creds p{
+    display: inline-block;
+    text-align: end;
+    /* margin-left: 60px; */
+    /* margin-top: 200px; */
+    font-size: medium;
+    color: #f5f3f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.creds p a{
+    text-decoration: none;
+    color: #f5e6ee;
+}
+
+@media screen and (max-width: 1024px) {
+    body h3{
+        font-size: xx-large;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    body center{
+        height: 250px;
+    }
+    body center #pic{
+        width: auto;
+        height: 250px;
+    }
+    body p{
+        margin: 72px 180px;
+        font-size: 26px;
+    }
+
+    /* Bottom */
+    .bottom .creds pre{
+        margin: 0;
+        height: 150px;
+        /* background-color: lightcoral; */
+    }
+    .bottom .creds pre p{
+        font-size: 26px;
+        text-align: left;
+        margin-left: 60px;
+    }
+}

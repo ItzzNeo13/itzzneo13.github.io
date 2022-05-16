@@ -1,0 +1,228 @@
+body{
+    background-color: #040404;
+}
+
+.name h2{
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+
+.top{
+    width: 100%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+.links ul li{
+    display: inline-block;
+    padding-left: 40px;
+    margin-top: 15px;
+    margin-left: 65px;
+    color: #f5f3f4;
+    font-family: 'Roboto', sans-serif;
+}
+.links ul li:hover{
+    color: #d3d3d3;
+}
+
+.heading h2{
+    display: inline-block;
+    margin-left: 65px;
+    margin-left: 40px;
+    margin-top: 35px;
+    color: #f5f3f4;
+    font-family: 'Manrope', sans-serif;
+}
+
+.heading{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.intro h5{
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 35px;
+    font-size: medium;
+    color: #f5f3f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.intro{
+    text-align: center;
+}
+
+.creds p{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 200px;
+    font-size: medium;
+    color: #f5f3f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.creds p a{
+    text-decoration: none;
+    color: #f5e6ee;
+}
+
+@media screen and (max-width: 1024px){
+    /* Header */
+    .top{
+        width: 100%;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px auto;
+    }
+    .name{
+        text-align: center;
+        font-size: 35px;
+    }
+    .links ul li{
+       font-size: x-large;
+       margin-left: 50px;
+       margin-right: 50px;
+    }
+
+    /* Body */
+    .heading{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .heading h2{
+        display: inline-block;
+        margin-top: 180px;
+        color: #f5f3f4;
+        font-family: 'Manrope', sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    .intro h5 p{
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 35px;
+        font-size: 30px;
+        color: #f5f3f4;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+   .intro h5{
+       margin-left: 10px;
+   }
+
+   /* Bottom */
+   .creds p{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 200px;
+    font-size: 25px;
+    color: #f5f3f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+}
+
+@media screen and (max-width: 950px){
+    .top{
+        width: 100%;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px auto;
+    }
+
+    .links ul li{
+        font-size: x-large;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .creds p{
+        display: inline-block;
+        margin-left: 45px;
+        margin-top: 300px;
+        font-size: 25px;
+        color: #f5f3f4;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .links ul{
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (max-width:770px){
+    .links ul{
+        margin-top: 50px;
+        text-align: left;
+        float: left;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 725px){
+    .top{
+        width: 100%;
+        height: 150px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    .heading h2{
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 30px;
+        color: #f5f3f4;
+        font-family: 'Manrope', sans-serif;
+        font-size: 28px;
+        text-align: left;
+    }
+    .heading{
+        margin-top: 40px;
+    }
+
+    .intro{
+        margin-top: 30px;
+    }
+
+    .intro h5{
+        margin-top: -160px;
+        
+    }
+    .intro h5 p{
+        font-size: large;
+        margin-top: -235px;
+        padding: 20px;
+        float: left;
+        text-align: left;
+    }
+
+    .links ul{
+        margin-top: 20px;
+    }
+
+    pre{
+        height: 100px;
+    }
+    .creds p{
+        margin-top: -20px;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width:400px){
+    .heading h2{
+        font-size: 25px;
+    }
+}
